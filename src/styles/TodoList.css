@@ -1,0 +1,25 @@
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-item .MuiListItemText-root {
+    margin-left: 10px;
+  }
+  
+  .todo-item .MuiIconButton-root {
+    margin-left: auto;
+  }
